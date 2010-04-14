@@ -25,4 +25,5 @@ Participantes:
 * Sânya Carvalho dos Santos
 * Thawan dos Santos Fidélis
 
-![Foto do dia 30/03/2010](http://farm3.static.flickr.com/2720/4478232930_0b814bd643_b.jpg)
+![Foto do dia 30/03/2010](http://farm3.static.flickr.com/2720/4478232930_0b814bd643.jpg)
+
