@@ -18,17 +18,21 @@ interruptor na volta à sua posição inicial, apenas na ida. A *i*ésima caminh
 
 Determine qual é o estado final de cada lâmpada. Está ligada ou desligada?
 
-*Entrada*
+### *Entrada*
+
 A entrada será um inteiro indicando o número de lâmpadas no corredor. Zero
 indica o fim da entrada e não deve ser processado.
 
-*Saída*
+### *Saída*
+
 A saída deve indicar o estado, ligada ou desligada, das lâmpadas.
 
-*Exemplo de entrada*
+### *Exemplo de entrada*
+
 3
 
-*Exemplo de saída*
+### *Exemplo de saída*
+
 [on, off, off]
 
 
