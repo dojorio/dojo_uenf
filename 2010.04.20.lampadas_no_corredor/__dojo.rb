@@ -1,5 +1,10 @@
-# Este arquivo surgiu de uma discussão que tivemos, levantada por Rodrigo, de
-# como os testes deveriam se escritos.
+# O arquivo __dojo.rb deriva de uma discussão que tivemos, levantada por
+# Rodrigo, de como os testes deveriam se escritos. Ele levantou um
+# questionamento sobre como escrevíamos os testes no Dojo; como eles eram
+# escritos de forma TDD e não BDD, ferindo o conceito de que o teste não é
+# apenas um teste, mas sim uma especificação. Para entender a diferença, compare
+# esse arquivo com o lampadas_no_corredor_spec.rb, exceto pelos testes da
+# classe Lampada que já foram escritos seguindo essa ideia.
 
 require "corredor"
 
