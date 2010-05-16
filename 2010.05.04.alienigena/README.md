@@ -1,10 +1,10 @@
 Dojo UENF [4]
 =============
 
-Problema: Linguagem alienígena
-------------------------------
+Problema
+--------
 
-Pegar com Max o link
+[Linguagem alienígena](http://code.google.com/codejam/contest/dashboard?c=90101#s=p0)
 
 Participantes
 -------------
@@ -23,10 +23,10 @@ Retrospectiva
 
 :)
 
-Problema legal
+* Problema legal
 
 :(
 
-Pouco conhecimento sobre a linguagem. Não existia o master.
-Pouca gente
+* Pouco conhecimento sobre a linguagem. Não existia o master.
+* Pouca gente
 
