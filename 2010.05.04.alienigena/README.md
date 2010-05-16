@@ -17,16 +17,3 @@ Participantes
 
 ![Foto do dia 04/05/2010](http://farm5.static.flickr.com/4017/4604602939_a7ee9aba44.jpg)
 
-
-Retrospectiva
--------------
-
-:)
-
-* Problema legal
-
-:(
-
-* Pouco conhecimento sobre a linguagem. Não existia o master.
-* Pouca gente
-
