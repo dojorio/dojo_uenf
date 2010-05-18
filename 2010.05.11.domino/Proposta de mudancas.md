@@ -1,7 +1,7 @@
 Coding Dojo modalidade *ShuryoKata*
 ====================================
 
-Estamos realizando nosso Dojo(RandoriKata) na UENF a pouco mais de um mês.
+Estamos realizando nosso Dojo(RandoriKata) na UENF há pouco mais de um mês.
 Durante esse período, percebi alguns problemas e fiquei pensando sobre isso.
 Assim, tive algumas ideias para modificar um pouco a dinâmica do Dojo. A seguir
 destaco os problemas e as soluções propostas:
