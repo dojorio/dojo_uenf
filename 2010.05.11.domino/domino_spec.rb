@@ -16,8 +16,8 @@ describe Domino do
     domino = Domino.new jogadores(2)
     domino.jogadores.should have(2).jogadores
 
-    domino = Domino.new jogadores(1)
-    domino.jogadores.should == "Fazer exception!"
+    expect{Domino.new jogadores(1)}.to raise_error ArgumentError,
+      "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
 
   end
 
@@ -25,8 +25,8 @@ describe Domino do
     domino = Domino.new jogadores(4)
     domino.jogadores.should have(4).jogadores
 
-    domino = Domino.new jogadores(5)
-    domino.jogadores.should == "Fazer exception!"
+    expect{Domino.new jogadores(5)}.to raise_error,
+      "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
   end
 
   it "deve possuir as peças adequadas" do
@@ -60,6 +60,31 @@ describe Domino do
       domino.pecas.should_not include jogador.pecas
     end
   end
+
+  describe "quem inicia o jogo?" do
+
+    it "o jogador com a maior peça de lados iguais inicia o jogo" do
+      domino = Domino.new((4..6).collect {|maior|
+        mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => maior) })
+      domino.distribuir_pecas
+      domino.quem_inicia_o_jogo?.should == domino.jogadores[2]
+    end
+
+    describe 'se ninguém tem um gamão' do
+
+      it 'a vez é do primeiro' do
+        domino = Domino.new 2.times.collect {
+          mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => nil) }
+        domino.distribuir_pecas
+
+        domino.quem_inicia_o_jogo?.should == domino.jogadores[0]
+      end
+
+    end
+
+  end
+
+
 
 end
 

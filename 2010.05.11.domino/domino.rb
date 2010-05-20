@@ -4,7 +4,9 @@ class Domino
   attr_reader :jogadores, :pecas
 
   def initialize (jogadores)
-    if jogadores.length >= 2 and jogadores.length <= 4
+    unless jogadores.length >= 2 and jogadores.length <= 4
+      raise ArgumentError, "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
+    end
       @jogadores = jogadores
       @pecas = [
         [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6],
@@ -15,9 +17,6 @@ class Domino
         [5, 5], [5, 6],
         [6, 6]
       ].shuffle
-    else
-      @jogadores = "Fazer exception!"
-    end
   end
 
   def distribuir_pecas
@@ -28,5 +27,12 @@ class Domino
       end
     end
   end
+
+  def quem_inicia_o_jogo?
+    @jogadores.max_by do |jogador|
+      jogador.valor_maior_gamao
+    end
+  end
+
 end
 

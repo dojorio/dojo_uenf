@@ -49,3 +49,31 @@ Participantes
 
 ![Foto do dia 11/05/2010](http://farm2.static.flickr.com/1085/4605225430_3a7c23d5d9.jpg)
 
+
+Dojo UENF [6] - 18/05/2010
+==========================
+
+Retrospectiva
+-------------
+
+:)
+
+* O problema está ficando mais legal
+* Participação da galera foi boa
+* Matamos as dúvidas do dojo passado
+
+:(
+
+* Galera falando muito quando teste estava quebrado
+* Gedit mal configurado (Hugo tinha acabado de formatar o note e esqueceu de configurar o gedit no afterFormat)
+
+Participantes
+-------------
+
+* Herond Salles
+* Hugo Maia Vieira
+* Luiz Almeida
+* Pedro Linhares
+* Rafael Carvalho
+* Rodrigo Manhẽs
+
