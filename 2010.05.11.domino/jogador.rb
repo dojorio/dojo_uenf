@@ -1,10 +1,11 @@
 require 'peca'
 
 class Jogador
-  attr_reader :pecas
+  attr_reader :pecas, :domino
 
-  def initialize
+  def initialize(domino)
     @pecas = []
+    @domino = domino
     self
   end
 
@@ -17,6 +18,10 @@ class Jogador
     @pecas.select {|peca| peca.gamao? }.
       max_by {|peca| peca.lado(1) }.
       lado(1)
+  end
+
+  def comprar
+    @pecas << domino.comprar_da_mesa
   end
 
 end

@@ -4,10 +4,10 @@ class Domino
   attr_reader :jogadores, :pecas
 
   def initialize (jogadores)
-    unless jogadores.length >= 2 and jogadores.length <= 4
+    unless jogadores >= 2 and jogadores <= 4
       raise ArgumentError, "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
     end
-      @jogadores = jogadores
+      @jogadores = jogadores.times.collect {Jogador.new(self)}
       @pecas = [
         [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6],
         [1, 1], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6],
@@ -28,10 +28,14 @@ class Domino
     end
   end
 
-  def quem_inicia_o_jogo?
+  def proximo_a_jogar
     @jogadores.max_by do |jogador|
-      jogador.valor_maior_gamao
+      jogador.valor_maior_gamao || -1
     end
+  end
+
+  def proximo_jogador_pode_jogar?
+    false
   end
 
 end

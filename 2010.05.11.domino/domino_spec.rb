@@ -13,24 +13,24 @@ end
 describe Domino do
 
   it "deve ter no mínimo dois jogadores" do
-    domino = Domino.new jogadores(2)
+    domino = Domino.new(jogadores = 2)
     domino.jogadores.should have(2).jogadores
 
-    expect{Domino.new jogadores(1)}.to raise_error ArgumentError,
+    expect{Domino.new(jogadores = 1)}.to raise_error ArgumentError,
       "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
 
   end
 
   it "deve ter no máximo quatro jogadores" do
-    domino = Domino.new jogadores(4)
+    domino = Domino.new(jogadores = 4)
     domino.jogadores.should have(4).jogadores
 
-    expect{Domino.new jogadores(5)}.to raise_error,
+    expect{Domino.new(jogadores = 5)}.to raise_error,
       "O jogo deve ter no mínimo 2 e no máximo 4 jogadores"
   end
 
   it "deve possuir as peças adequadas" do
-    domino = Domino.new jogadores(2)
+    domino = Domino.new(jogadores = 2)
 
     domino.pecas.should include(
       [0, 0], [0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6],
@@ -44,7 +44,7 @@ describe Domino do
   end
 
   it "deve distribuir inicialmente 7 peças para os jogadores" do
-    domino = Domino.new jogadores(2)
+    domino = Domino.new(jogadores = 2)
 
     domino.distribuir_pecas
     domino.jogadores[0].pecas.length.should == 7
@@ -53,7 +53,7 @@ describe Domino do
   end
 
   it "não pode conter peças já distribuidas para os jogadores" do
-    domino = Domino.new jogadores(2)
+    domino = Domino.new(jogadores = 2)
     domino.distribuir_pecas
 
     domino.jogadores.each do |jogador|
@@ -61,30 +61,36 @@ describe Domino do
     end
   end
 
-  describe "quem inicia o jogo?" do
+  describe "no início do jogo" do
 
     it "o jogador com a maior peça de lados iguais inicia o jogo" do
       domino = Domino.new((4..6).collect {|maior|
         mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => maior) })
       domino.distribuir_pecas
-      domino.quem_inicia_o_jogo?.should == domino.jogadores[2]
+      domino.proximo_a_jogar.should == domino.jogadores[2]
     end
 
     describe 'se ninguém tem um gamão' do
 
-      it 'a vez é do primeiro' do
-        domino = Domino.new 2.times.collect {
-          mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => nil) }
-        domino.distribuir_pecas
+#      it 'a vez é do primeiro' do
+#        domino = Domino.new 2.times.collect {
+#          mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => nil) }
+#        domino.distribuir_pecas
 
-        domino.quem_inicia_o_jogo?.should == domino.jogadores[0]
-      end
+#        domino.proximo_a_jogar.should == domino.jogadores[0]
+#      end
 
+#      it 'o jogador da vez não pode jogar' do
+#        domino = Domino.new 2.times.collect {
+#          mock(Jogador, :recebe_pecas => nil, :valor_maior_gamao => nil) }
+#        domino.proximo_jogador_pode_jogar?.should be_false
+#      end
     end
-
   end
 
+  it 'deve entregar uma peça ao jogador quando este requisitar' do
 
+  end
 
 end
 

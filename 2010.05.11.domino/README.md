@@ -75,5 +75,34 @@ Participantes
 * Luiz Almeida
 * Pedro Linhares
 * Rafael Carvalho
-* Rodrigo Manhẽs
+* Rodrigo Manhães
+
+
+Dojo UENF [6] - 18/05/2010
+==========================
+
+Retrospectiva
+-------------
+
+:)
+
+* Gedit estava réupis
+
+:(
+
+* A idéia sobre como implementar não ficou claro
+* Sentimos que para o problema mais complicado faltou uma ferramenta teste de aceitação
+* Pouca gente programou
+* Falatório no vermelho
+
+Participantes
+-------------
+
+* Eduardo Hertz
+* Herond Salles
+* Hugo Maia Vieira
+* Luiz Almeida
+* Mayra Santana
+* Rodrigo Manhães
+* Sânya Carvalho
 
