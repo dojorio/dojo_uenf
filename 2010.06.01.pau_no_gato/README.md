@@ -1,3 +1,16 @@
+Dojo UENF [6] - 01/06/2010
+========================
+
+Considerações
+------------
+
+Volamos a realizar o Dojo em seu formato original.
+
+Problema
+-------
+
+Modelar a canção infantil "Atirei o pau no gato"
+
 Participantes
 ------------
 
@@ -6,6 +19,9 @@ Participantes
 * Pedro
 * Max
 * Mayra
+
+Retrospectiva
+------------
 
 :)
 
