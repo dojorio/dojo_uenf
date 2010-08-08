@@ -78,7 +78,7 @@ Participantes
 * Rodrigo Manhães
 
 
-Dojo UENF [6] - 18/05/2010
+Dojo UENF [7] - 25/05/2010
 ==========================
 
 Retrospectiva

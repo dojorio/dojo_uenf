@@ -1,8 +1,8 @@
-Dojo UENF [7] - 24/07/2010
+Dojo UENF [9] - 24/07/2010
 ========================
 
 Este Dojo aconteceu no hotel em que estávamos hospedados em Porto Alegre para o
-FILS
+FISL11
 
 Problemas do Code Golfe da IG
 --------------------------
