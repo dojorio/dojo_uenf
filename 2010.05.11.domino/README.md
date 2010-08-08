@@ -90,7 +90,7 @@ Retrospectiva
 
 :(
 
-* A idéia sobre como implementar não ficou claro
+* A idéia sobre como implementar não ficou clara
 * Sentimos que para o problema mais complicado faltou uma ferramenta teste de aceitação
 * Pouca gente programou
 * Falatório no vermelho

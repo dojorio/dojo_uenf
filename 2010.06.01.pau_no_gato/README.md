@@ -4,7 +4,7 @@ Dojo UENF [8] - 01/06/2010
 Considerações
 ------------
 
-Volamos a realizar o Dojo em seu formato original.
+Voltamos a realizar o Dojo em seu formato original.
 
 Problema
 -------
@@ -28,10 +28,10 @@ Retrospectiva
 * Python rocks!
 * Todos participaram
 * Problema muito legal e divertido
-* Shoud-dsl está muito bom!
+* Shoud-dsl e Specloud estão muito bons!
 * Snippets irados!
 
 :(
 
-* pessoal chegou tarde
+* Pessoal chegou tarde
 
