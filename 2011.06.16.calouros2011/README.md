@@ -37,7 +37,7 @@ Exemplo do Fizz Buzz:
 
 ## Participantes
 
-![Foto do dia 16/06/2011]()
+![Foto do dia 16/06/2011](https://github.com/dojorio/dojo_uenf/blob/master/2011.06.16.calouros2011/dojo_calouros2011.JPG?raw=true)
 
 * Hugo Maia Vieira
 * Eduardo Hertz
