@@ -39,22 +39,22 @@ Exemplo do Fizz Buzz:
 
 ![Foto do dia 16/06/2011](https://github.com/dojorio/dojo_uenf/blob/master/2011.06.16.calouros2011/dojo_calouros2011.JPG?raw=true)
 
-* Hugo Maia Vieira
-* Eduardo Hertz
-* Herond (Max)
-* Antônio (Tonhão)
-* Lucas Aride
-* Vitor
-* Lucas Marques
-* Vinicius Passos
-* Kirill
-* Elisson (Jack)
-* Douglas Camata
-* Thawan
-* Gabriel
-* Eduardo (Parah)
-* Ohana
-* Natalie
-* Pablo
 * Anna
+* Antônio (Tonhão)
+* Douglas Camata
+* Eduardo Hertz
+* Eduardo (Parah)
+* Elisson (Jack)
+* Gabriel
+* Herond (Max)
+* Hugo Maia Vieira
+* Kirill
+* Lucas Aride
+* Lucas Marques
+* Natalie
+* Ohana
+* Pablo
+* Thawan
+* Vinicius Passos
+* Vitor
 
