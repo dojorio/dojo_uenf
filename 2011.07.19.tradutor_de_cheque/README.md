@@ -20,11 +20,11 @@ valor numérico do cheque.
 
 - Javascript ++++
 - Problema muito legal
-- [Pizza])(http://donatellopizza.com.br/) muito boa
+- [Pizza](http://donatellopizza.com.br/) muito boa
     - Calabresa
     - Quatro queijos / Portuguesa
     - Lombo com catupiry / Peru-ricota
-- Por causa da demora da pizza, semana que vem vamos ganhar brinde =)
+- Por causa da demora da pizza, semana que vem vamos ganhar brinde!
 
 **=(**
 
@@ -39,8 +39,10 @@ valor numérico do cheque.
 - Eduardo Hertz
 - Herond Salles (Max)
 - Hugo Maia
+- Lucas Aride
 - Natalie Fernandez
 - Nicole Manhães
+- Rafael Carvalho
 - Raul da Rosa
 - Talles Robert
 
