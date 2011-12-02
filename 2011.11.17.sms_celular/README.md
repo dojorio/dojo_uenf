@@ -39,3 +39,9 @@ Escrevendo no Celular
 - Maira
 - Vinicius (Castanha)
 - Eduardo Braga (Caju)
+
+## Sugestões para o próximo
+
+- Música BOA pra tocar no vermelho
+- Comida
+- Larissa programar! ;)
