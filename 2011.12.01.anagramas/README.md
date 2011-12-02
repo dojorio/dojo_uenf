@@ -13,8 +13,10 @@
 - quase todo mundo participou
 - um pouco de refactoring..
 - finalmente a Larissa programou! :D
+- abrimos classes em Ruby, #win
+- vimos alguns conceitos básicos de OO
 	
-***:\***
+***:[***
 
 - falatório
 - subgrupos, DE NOVO!! ¬¬
