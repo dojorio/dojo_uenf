@@ -11,7 +11,7 @@ Utilizamos algumas libs de acordo com a linguagem:
 
 - Ruby: [rspec](http://relishapp.com/rspec)
 - Python: [should-dsl](http://should-dsl.info/) e [specloud](http://github.com/hugobr/specloud)
-- Javascript: [jasmine](http://pivotal.github.com/jasmine/)
+- Javascript: [jasmine](https://jasmine.github.io/)
 
 Os relatos ficam no site da [DojoRio](http://dojorio.org)
 
